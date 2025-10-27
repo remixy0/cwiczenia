@@ -3,12 +3,12 @@ public class Data {
     int miesiac;
     int rok;
 
-    void Data(){
+    public Data(){
         this.dzien = 27;
         this.miesiac = 10;
         this.rok = 2025;
     }
-    void Data(int dzien, int miesiac, int rok){
+    public Data(int dzien, int miesiac, int rok){
         this.dzien = dzien;
         this.miesiac = miesiac;
         this.rok = rok;
